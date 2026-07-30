@@ -1,0 +1,13 @@
+local Enabled = false
+
+local function Toggle()
+    Enabled = not Enabled
+
+    if Enabled then
+        print("เปิด")
+        -- ใส่โค้ดของระบบคุณที่นี่
+    else
+        print("ปิด")
+        -- ใส่โค้ดตอนปิดที่นี่
+    end
+end
